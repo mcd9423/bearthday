@@ -31,7 +31,7 @@ function App() {
           setImage(`https://api.nasa.gov/EPIC/archive/natural/${imageDate}/png/${imageID}.png?api_key=x7ukJY1A53jE5maUdJuUP2SmcaZLetRDKaqf2JvU`)
         }
         else {
-          // getNextDay();
+          getNextDay();
         }
       })
   }
